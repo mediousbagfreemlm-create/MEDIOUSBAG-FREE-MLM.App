@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mediousbag MLM</string>
+    <string name="title_login">Login</string>
+    <string name="title_register">Register</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_team_tree">Team Tree</string>
+    <string name="title_wallet">Wallet</string>
+    <string name="title_investment">Investment</string>
+    <string name="title_premium">Premium</string>
+    <string name="title_shop">Shop</string>
+    <string name="title_my_orders">My Orders</string>
+    <string name="title_my_investments">My Investments</string>
+    <string name="title_my_withdrawals">My Withdrawals</string>
+    <string name="title_my_account">My Account</string>
+    <string name="title_my_premium">My Premium</string>
+    <string name="title_reports">Reports</string>
+</resources>
