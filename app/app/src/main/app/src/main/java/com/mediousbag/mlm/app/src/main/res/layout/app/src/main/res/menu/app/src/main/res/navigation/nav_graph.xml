@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/navigation_login">
+
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="com.mediousbag.mlm.ui.login.LoginFragment"
+        android:label="@string/title_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/navigation_register"
+        android:name="com.mediousbag.mlm.ui.register.RegisterFragment"
+        android:label="@string/title_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.mediousbag.mlm.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/navigation_team_tree"
+        android:name="com.mediousbag.mlm.ui.teamtree.TeamTreeFragment"
+        android:label="@string/title_team_tree"
+        tools:layout="@layout/fragment_team_tree" />
+    <fragment
+        android:id="@+id/navigation_wallet"
+        android:name="com.mediousbag.mlm.ui.wallet.WalletFragment"
+        android:label="@string/title_wallet"
+        tools:layout="@layout/fragment_wallet" />
+    <fragment
+        android:id="@+id/navigation_investment"
+        android:name="com.mediousbag.mlm.ui.investment.InvestmentFragment"
+        android:label="@string/title_investment"
+        tools:layout="@layout/fragment_investment" />
+    <fragment
+        android:id="@+id/navigation_premium"
+        android:name="com.mediousbag.mlm.ui.premium.PremiumFragment"
+        android:label="@string/title_premium"
+        tools:layout="@layout/fragment_premium" />
+    <fragment
+        android:id="@+id/navigation_shop"
+        android:name="com.mediousbag.mlm.ui.shop.ShopFragment"
+        android:label="@string/title_shop"
+        tools:layout="@layout/fragment_shop" />
+    <fragment
+        android:id="@+id/navigation_my_orders"
+        android:name="com.mediousbag.mlm.ui.orders.OrdersFragment"
+        android:label="@string/title_my_orders"
+        tools:layout="@layout/fragment_orders" />
+    <fragment
+        android:id="@+id/navigation_my_investments"
+        android:name="com.mediousbag.mlm.ui.investments.InvestmentsFragment"
+        android:label="@string/title_my_investments"
+        tools:layout="@layout/fragment_investments" />
+    <fragment
+        android:id="@+id/navigation_my_withdrawals"
+        android:name="com.mediousbag.mlm.ui.withdrawals.WithdrawalsFragment"
+        android:label="@string/title_my_withdrawals"
+        tools:layout="@layout/fragment_withdrawals" />
+    <fragment
+        android:id="@+id/navigation_my_account"
+        android:name="com.mediousbag.mlm.ui.account.AccountFragment"
+        android:label="@string/title_my_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/navigation_my_premium"
+        android:name="com.mediousbag.mlm.ui.mypremium.MyPremiumFragment"
+        android:label="@string/title_my_premium"
+        tools:layout="@layout/fragment_my_premium" />
+    <fragment
+        android:id="@+id/navigation_reports"
+        android:name="com.mediousbag.mlm.ui.reports.ReportsFragment"
+        android:label="@string/title_reports"
+        tools:layout="@layout/fragment_reports" />
+</navigation>￼Enter
