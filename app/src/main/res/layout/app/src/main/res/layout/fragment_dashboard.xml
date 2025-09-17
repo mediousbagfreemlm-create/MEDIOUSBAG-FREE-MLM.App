@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/balanceText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Balance: ₹0.00"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/charityFundText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Charity Fund: ₹0.00"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/premiumStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Premium Status: Not Premium"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/teamTreeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Team Tree"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/walletButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wallet"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/shopButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shop"
+        android:layout_marginBottom="8dp" />
+
+</LinearLayout>￼Enter
